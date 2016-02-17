@@ -24,7 +24,7 @@ Rails.application.configure do
     :authentication => :plain,
     :user_name      => ENV['eritheia.labs'],
     :password       => ENV['labseritheia123'],
-    :domain         => 'sendgrid.net',
+    :domain         => 'localhost:3000',
     :enable_starttls_auto => true
   }
 
