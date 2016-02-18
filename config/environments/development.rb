@@ -22,8 +22,8 @@ Rails.application.configure do
     :address        => 'smtp.sendgrid.net',
     :port           => '587',
     :authentication => :plain,
-    :user_name      => ENV['eritheia.labs'],
-    :password       => ENV['labseritheia123'],
+    :user_name      => ENV['SENDGRID_USERNAME'],
+    :password       => ENV['SENDGRID_PASSWORD'],
     :domain         => 'localhost:3000',
     :enable_starttls_auto => true
   }
