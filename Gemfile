@@ -35,6 +35,15 @@ gem 'will_paginate',           '3.0.7'
 # Add bootstrap styling to pagination
 gem 'bootstrap-will_paginate', '0.0.10'
 
+# Image upload
+gem 'carrierwave',             '0.10.0'
+
+# Image resizing
+gem 'mini_magick',             '3.8.0'
+
+# Image upload in production
+gem 'fog',                     '1.36.0'
+
 # Use Unicorn as the app server
 # gem 'unicorn'
 
